@@ -1,0 +1,16 @@
+{
+  "name": "Custom Theme",
+  "label": "Custom Theme",
+  "type": "theme",
+  "thumbnails ": [],
+  "version": "1.13.0",
+  "exbVersion": "1.13.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "This theme makes the legend usable.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "styleFiles": {
+    "css": false,
+    "js": false
+  }
+}

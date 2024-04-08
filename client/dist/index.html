@@ -1,0 +1,89 @@
+<!doctype html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><title>Experience Builder System</title><link rel="shortcut icon" href="site/assets/exb.ico"><base href="/"/><style>html {
+				scrollbar-color: var(--light-600) var(--light-200);
+			}
+			html, body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+			}
+			html.scrollable {
+				overflow: auto;
+			}
+			html.scrollable body {
+				overflow: unset;
+			}
+			html.scrollable body, html.scrollable #app {
+				height: auto;
+			}
+			#loading{
+				width: 100vw;
+				height: 100vh;
+			}
+			#app{
+				width: 100%;
+				height: 100%;
+				display: none;
+			}</style><script type="empty">/**
+			Add this empty script tag can help API module load find the correct "insertPointSibling"
+			*/</script></head><body><div id="loading"><style>body{
+      background-color: #232323;
+    }
+    .loading-content{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .exb-glyph-loading{
+      width: 128px;
+      height: 128px;
+      background-image: url("./site/assets/exb-glyph.gif");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }</style><div class="loading-content"><div class="exb-glyph-loading"></div></div></div><div id="app"></div><script type="webpack-options" id="webpack-options">{
+				"mountPath": "/",
+				"isOutOfExb": false,
+				"hostEnv": "prod",
+				"appFolderName": "site",
+				"useStructuralUrl": true,
+				"arcgisJsApiUrl": "c:/users/jackhann/4.28/",
+				"isDevEdition": true,
+				"buildNumber": "",
+				"isBuilder": false,
+				"isSite": true,
+				"isInPortal": false
+			}</script><script type="systemjs-importmap">{
+	"imports": {
+		"jimu-core": "c:/users/jackhann/exb/client/dist/jimu-core/index.js",
+		"jimu-core/": "c:/users/jackhann/exb/client/dist/jimu-core/",
+		"jimu-theme": "c:/users/jackhann/exb/client/dist/jimu-theme/index.js",
+		"jimu-theme/": "c:/users/jackhann/exb/client/dist/jimu-theme/",
+		"jimu-ui": "c:/users/jackhann/exb/client/dist/jimu-ui/index.js",
+		"jimu-ui/": "c:/users/jackhann/exb/client/dist/jimu-ui/",
+		"jimu-icons/": "c:/users/jackhann/exb/client/dist/jimu-icons/",
+		"jimu-arcgis": "c:/users/jackhann/exb/client/dist/jimu-arcgis/index.js",
+		"jimu-arcgis/": "c:/users/jackhann/exb/client/dist/jimu-arcgis/",
+		"jimu-layouts": "c:/users/jackhann/exb/client/dist/jimu-layouts/index.js",
+		"jimu-layouts/": "c:/users/jackhann/exb/client/dist/jimu-layouts/",
+		"jimu-for-builder": "c:/users/jackhann/exb/client/dist/jimu-for-builder/index.js",
+		"jimu-for-builder/": "c:/users/jackhann/exb/client/dist/jimu-for-builder/",
+		"widgets/": "c:/users/jackhann/exb/client/dist/widgets/",
+		"themes/": "c:/users/jackhann/exb/client/dist/themes/",
+		"builder/": "c:/users/jackhann/exb/client/dist/builder/",
+		"site/": "c:/users/jackhann/exb/client/dist/site/",
+		"experience/": "c:/users/jackhann/exb/client/dist/experience/",
+		"template/": "c:/users/jackhann/exb/client/dist/template/",
+		"templates/": "c:/users/jackhann/exb/client/dist/templates/",
+		"calcite-components": "c:/users/jackhann/exb/client/dist/calcite-components/index.js",
+		"calcite-components/": "c:/users/jackhann/exb/client/dist/calcite-components/",
+
+		"arcgis-amd-packages/": "https://amd-packages/",
+		"esri/": "c:/users/jackhann/4.28/esri/"
+	}
+}</script><script src="./jimu-core/init.js"></script></body></html>

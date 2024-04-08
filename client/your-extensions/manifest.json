@@ -1,0 +1,7 @@
+{
+  "name": "my-web-extension-repo",
+  "type": "exb-web-extension-repo",
+  "description": "This is a sample extension repository, put your extensions here.",
+  "copyright": "",
+  "license": ""
+}

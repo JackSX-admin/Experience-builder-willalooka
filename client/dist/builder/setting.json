@@ -1,0 +1,9 @@
+{
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://smartx.maps.arcgis.com",
+      "clientId": "19KALBNLhPR34t83",
+      "isWebTier": false
+    }
+  }
+}
